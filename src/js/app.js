@@ -31,5 +31,6 @@ Array.from(logoutButtons).forEach((el) => {
   el.addEventListener("click", (e) => {
     e.preventDefault();
     cookies.expire("nf_jwt");
+    document.location.href = "/";
   }, false);
 });

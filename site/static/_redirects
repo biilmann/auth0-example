@@ -1,3 +1,2 @@
-/secret/ /secret/index.html 200! Role=member
-/secret/:splat /secret/index.html 200! Role=member
-/secret/:splat /secret/access-denied/ 200!
+/secret/* /secret/index.html 200! Role=member
+/secret/* /secret/access-denied/ 200!
